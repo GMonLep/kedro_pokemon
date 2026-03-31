@@ -3,6 +3,6 @@
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/catalog-data/introduction/#data-catalog
 
-pokemon: 
+weather_data: 
   type: pandas.CSVDataset
-  path: data/01_raw/pokemon.csv
+  filepath: data/01_raw/weather_classification_data.csv
