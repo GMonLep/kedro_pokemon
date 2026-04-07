@@ -3,6 +3,10 @@
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/catalog-data/introduction/#data-catalog
 
-weather_data: 
+datos_practica: 
   type: pandas.CSVDataset
-  filepath: data/01_raw/weather_classification_data.csv
+  filepath: data/01_raw/my_file (1).csv
+
+datos_practica_listo:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/datos_practica_listo.csv
